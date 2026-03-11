@@ -1,0 +1,47 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+yaacovi events בונה חוויות בלתי נשכחות לחתונה שלכם. מתכנן אירועים מקצועי שהופך חלומות למציאות עם תשומת לב לכל פרט. בואו ליצור את האירוע המושלם.
+
+### שירותים
+https://example.com/services
+גלו את מגוון השירותים שלנו: תכנון חתונות מושלם, בניית אירועים יוקרתיים, ניהול ספקים ועיצוב חוויתי. כל מה שצריך להפוך את האירוע שלכם למיוחד במינו.
+
+### תיק עבודות
+https://example.com/portfolio
+היכנסו לגלריה של חתונות ואירועים שיצרנו בהצלחה. כל פרויקט מספר סיפור ייחודי של אהבה, יצירתיות ומקצועיות ברמה הגבוהה ביותר. תתרשמו בעצמכם.
+
+### צור קשר
+https://example.com/contact
+מוכנים להתחיל לתכנן את האירוע של החיים? צרו איתנו קשר עוד היום לייעוץ חינם. yaacovi events כאן כדי להפוך את החזון שלכם למציאות מרהיבה.
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
