@@ -242,6 +242,234 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-hero-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-height: 600px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2E3E55;
+}
+
+/* Full-bleed background image */
+.index-hero-section .index-hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+/* Gradient scrim for text legibility - stronger at bottom-right (RTL) */
+.index-hero-section .index-hero-scrim {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(165deg, rgba(46,62,85,0.25) 0%, rgba(46,62,85,0.75) 100%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Content overlay container */
+.index-hero-section .index-hero-content {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 32px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
+  direction: rtl;
+}
+
+/* Text group */
+.index-hero-section .index-hero-text-group {
+  max-width: 700px;
+}
+
+/* Hero headline - H1 */
+.index-hero-section .index-hero-headline {
+  font-family: 'Fraunces', 'Playfair Display', serif;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: 0.01em;
+  color: var(--text-light);
+  margin: 0 0 24px 0;
+  text-shadow: 0 4px 12px rgba(0,0,0,0.35), 0 2px 4px rgba(0,0,0,0.25);
+}
+
+/* Hero subtitle - H3 */
+.index-hero-section .index-hero-subtitle {
+  font-family: 'Inter', 'Source Sans 3', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+  color: var(--text-light);
+  margin: 0 0 40px 0;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.35);
+  opacity: 0.95;
+}
+
+/* CTA button group */
+.index-hero-section .index-hero-cta-group {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+/* Base button styles */
+.index-hero-section .index-hero-btn {
+  display: inline-block;
+  padding: 14px 32px;
+  font-family: 'Inter', 'Source Sans 3', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 0;
+  transition: all 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+/* Primary CTA */
+.index-hero-section .index-hero-btn-primary {
+  background: #0F7E83;
+  color: #FFFFFF;
+  border: 1px solid transparent;
+  box-shadow: 0 10px 22px rgba(15,126,131,0.35), 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.index-hero-section .index-hero-btn-primary:hover {
+  background: #0C6E72;
+  transform: translateY(-3px);
+  box-shadow: 0 16px 32px rgba(15,126,131,0.45), 0 6px 12px rgba(0,0,0,0.2);
+}
+
+/* Secondary CTA */
+.index-hero-section .index-hero-btn-secondary {
+  background: transparent;
+  color: var(--text-light);
+  border: 2px solid rgba(255,255,255,0.75);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.index-hero-section .index-hero-btn-secondary:hover {
+  background: rgba(255,255,255,0.12);
+  border-color: rgba(255,255,255,0.95);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* Scroll indicator */
+.index-hero-section .index-hero-scroll-indicator {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  color: var(--text-light);
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+/* Tablet adjustments */
+@media (max-width: 1024px) {
+  .index-hero-section .index-hero-headline {
+    font-size: 48px;
+  }
+  
+  .index-hero-section .index-hero-subtitle {
+    font-size: 20px;
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .index-hero-section {
+    min-height: 500px;
+    height: 100vh;
+    padding-top: 100px;
+  }
+  
+  .index-hero-section .index-hero-content {
+    padding: 0 20px;
+    justify-content: center;
+  }
+  
+  .index-hero-section .index-hero-text-group {
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  .index-hero-section .index-hero-headline {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .index-hero-section .index-hero-subtitle {
+    font-size: 18px;
+    margin-bottom: 32px;
+  }
+  
+  .index-hero-section .index-hero-cta-group {
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    align-items: stretch;
+  }
+  
+  .index-hero-section .index-hero-btn {
+    width: 100%;
+    text-align: center;
+    padding: 16px 24px;
+  }
+  
+  .index-hero-section .index-hero-scroll-indicator {
+    bottom: 24px;
+  }
+  
+  .index-hero-section .index-hero-scrim {
+    background-image: linear-gradient(165deg, rgba(46,62,85,0.35) 0%, rgba(46,62,85,0.8) 100%);
+  }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+  .index-hero-section .index-hero-headline {
+    font-size: 32px;
+  }
+  
+  .index-hero-section .index-hero-subtitle {
+    font-size: 16px;
+  }
+  
+  .index-hero-section .index-hero-btn {
+    font-size: 12px;
+    padding: 14px 20px;
+  }
+}
+</style>
     <link rel="stylesheet" href="/styles.css">
 
     <style id="zappy-dropdown-submenu-styles">
@@ -783,34 +1011,33 @@
 </script>
   
   <main>
-    <section class="index-hero-section" data-layout-spec="בית-hero" data-hero-type="fullscreen-scrim">
-  <!-- Background Image Layer -->
-  <div class="index-hero-section__bg-wrapper">
-    <img data-hero-bg="true" data-placeholder="index-hero-bg" data-context="Bright natural-light event scene with elegant table styling for an upscale wedding or celebration. Clean composition showing a beautifully set table with white linens, gold accents, soft floral centerpieces, and delicate glassware. Soft natural daylight streaming through windows, creating gentle highlights and a warm, inviting atmosphere. Focus on sophisticated details like folded napkins, place settings, and subtle decorative elements. Professional event photography style with balanced exposure, no heavy bokeh, clean and uncluttered background. Shot from a slightly elevated angle to showcase the table arrangement. Color palette: whites, creams, soft golds, natural wood tones, greenery." width="1920" height="1080" src="/assets/site-index-hero-bg.webp" alt="אירוע יוקרתי עם עיצוב שולחן אלגנטי ותאורה טבעית" class="index-hero-section__bg-image">
-  </div>
-
-  <!-- Scrim Overlay for Text Legibility -->
-  <div class="index-hero-section__scrim" aria-hidden="true"></div>
-
-  <!-- Content Overlay Card (START side) -->
-  <div class="index-hero-section__content-wrapper">
-    <div class="index-hero-section__content-card">
-      <h1 class="index-hero-section__headline">אירועים שמרגישים קלים—ובלתי נשכחים</h1>
-      <h3 class="index-hero-section__subtitle">תכנון ובנייה מלאה של אירועים עם ביצוע רגוע ועיצוב מוגבה. מיעקובי אירועים הופכים את החזון שלכם למציאות עם תשומת לב לכל פרט.</h3>
-      <div class="index-hero-section__cta-row">
-        <a href="/contact" class="index-hero-section__btn index-hero-section__btn--primary">צרו קשר</a>
-        <a href="/portfolio" class="index-hero-section__btn index-hero-section__btn--secondary">צפו בתיק עבודות</a>
+    <section class="index-hero-section" data-layout-spec="בית-hero" data-hero-type="fullscreen-card" data-zappy-section="true">
+  <!-- Full-bleed background image -->
+  <div class="index-hero-bg" style="background-image: url('assets/site-index-hero-bg.webp');  background-size: cover; background-position: center;"></div>
+  
+  <!-- Gradient scrim overlay for text legibility -->
+  <div class="index-hero-scrim"></div>
+  
+  <!-- Hero content overlay -->
+  <div class="index-hero-content">
+    <div class="index-hero-text-group">
+      <h1 class="index-hero-headline">ארגון ותכנון חתונות</h1>
+      <h3 class="index-hero-subtitle">תכנון ובנייה מלאה של אירועים עם ביצוע רגוע ועיצוב מוגבה. מיעקובי אירועים הופכים את החזון שלכם למציאות עם תשומת לב לכל פרט.</h3>
+      <div class="index-hero-cta-group">
+        <a href="/contact" class="index-hero-btn index-hero-btn-primary">צרו קשר</a>
+        <a href="/portfolio" class="index-hero-btn index-hero-btn-secondary">צפו בתיק עבודות</a>
       </div>
     </div>
   </div>
-
-  <!-- Bottom Diagonal Divider -->
-  <div class="index-hero-section__divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" class="index-hero-section__divider-svg">
-      <!-- Diagonal cut from START-bottom to END-bottom -->
-      <path d="M0,100 L0,30 L1200,70 L1200,100 Z" fill="#F7F3EE"></path>
-      <!-- Thin rule line following the diagonal -->
-      <line x1="0" y1="30" x2="1200" y2="70" stroke="rgba(46,62,85,0.16)" stroke-width="1"></line>
+  
+  <!-- Decorative scroll indicator -->
+  <div class="index-hero-scroll-indicator">
+    <svg width="24" height="36" viewBox="0 0 24 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <rect x="1" y="1" width="22" height="34" rx="11" stroke="currentColor" stroke-width="2"></rect>
+      <circle cx="12" cy="10" r="3" fill="currentColor">
+        <animate attributeName="cy" from="10" to="20" dur="1.5s" repeatCount="indefinite"></animate>
+        <animate attributeName="opacity" from="1" to="0" dur="1.5s" repeatCount="indefinite"></animate>
+      </circle>
     </svg>
   </div>
 </section>
@@ -852,7 +1079,7 @@
   </div>
 
   <div class="index-services-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewBox="0 0 1200 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,40 L0,25 Q50,22 100,26 T200,24 Q250,27 300,23 T400,25 Q450,24 500,27 T600,23 Q650,26 700,24 T800,27 Q850,23 900,26 T1000,24 Q1050,27 1100,23 T1200,26 L1200,40 Z" fill="#F7F3EE"></path>
     </svg>
   </div>
@@ -911,7 +1138,7 @@
   </div>
 
   <div class="index-portfolio-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="matGradient" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" style="stop-color:#2E3E55;stop-opacity:1"></stop>
@@ -955,7 +1182,7 @@
       
       <div class="index-process-timeline-column">
         <div class="index-process-timeline">
-          <svg class="index-process-timeline-svg" data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 120 600" xmlns="http://www.w3.org/2000/svg">
+          <svg class="index-process-timeline-svg" aria-hidden="true" viewBox="0 0 120 600" xmlns="http://www.w3.org/2000/svg">
             <line x1="60" y1="0" x2="60" y2="600" stroke="currentColor" stroke-width="1" opacity="0.2"></line>
             
             <g class="index-process-timeline-node" transform="translate(60, 75)">
@@ -987,7 +1214,7 @@
   </div>
   
   <div class="index-process-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,60 L0,0 L1200,0 L1200,60 L1140,60 L1140,20 L1120,20 L1120,60 Z" fill="#F7F3EE"></path>
       <line x1="0" y1="18" x2="1200" y2="18" stroke="currentColor" stroke-width="0.5" opacity="0.15"></line>
       <line x1="0" y1="22" x2="1200" y2="22" stroke="currentColor" stroke-width="0.5" opacity="0.15"></line>
