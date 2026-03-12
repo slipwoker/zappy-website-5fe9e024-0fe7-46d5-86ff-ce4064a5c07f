@@ -5937,6 +5937,191 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
+/* ═══════════════════════════════════════════════════════════
+   V2 REGENERATED SECTION CSS (בית-process)
+   Added: 2026-03-12T00:27:26.676Z
+   ═══════════════════════════════════════════════════════════ */
+.index-process-section {
+  position: relative;
+  background-color: #F7F3EE;
+  background-image: repeating-linear-gradient(90deg, rgba(46,62,85,0.06) 0, rgba(46,62,85,0.06) 1px, rgba(0,0,0,0) 1px, rgba(0,0,0,0) 22px);
+  color: var(--text-dark);
+  padding: 80px 24px;
+  overflow: visible;
+  direction: rtl;
+}
+
+.index-process-section .index-process-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.index-process-section .index-process-header {
+  text-align: center;
+  margin-bottom: 80px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.index-process-section .index-process-header h2 {
+  font-family: 'Fraunces', 'Playfair Display', serif;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  line-height: 1.3;
+  color: var(--text-dark);
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.index-process-section .index-process-intro {
+  font-family: 'Inter', 'Source Sans 3', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--text-dark);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.index-process-section .index-process-timeline {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px 40px;
+  z-index: 2;
+}
+
+.index-process-section .index-process-connector-line {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  right: 10%;
+  height: 2px;
+  background: linear-gradient(to left, rgba(46,62,85,0.15) 0%, rgba(46,62,85,0.08) 50%, rgba(46,62,85,0.15) 100%);
+  transform: translateY(-50%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.index-process-section .index-process-step {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: rgba(247,243,238,0.86);
+  border: 1px solid rgba(46,62,85,0.16);
+  border-radius: 0px;
+  padding: 32px 28px;
+  box-shadow: 0 14px 40px rgba(46,62,85,0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 2;
+}
+
+.index-process-section .index-process-step:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 55px rgba(46,62,85,0.18);
+}
+
+.index-process-section .index-process-step-number {
+  position: absolute;
+  top: -16px;
+  right: 24px;
+  width: 48px;
+  height: 48px;
+  background: #0F7E83;
+  color: #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', 'Source Sans 3', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  box-shadow: 0 10px 22px rgba(46,62,85,0.18);
+  z-index: 3;
+}
+
+.index-process-section .index-process-step-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.index-process-section .index-process-step-icon {
+  color: var(--primary);
+  align-self: flex-start;
+}
+
+.index-process-section .index-process-step-icon svg {
+  display: block;
+}
+
+.index-process-section .index-process-step h3 {
+  font-family: 'Fraunces', 'Playfair Display', serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--text-dark);
+  margin: 0;
+}
+
+.index-process-section .index-process-step p {
+  font-family: 'Inter', 'Source Sans 3', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--text-dark);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .index-process-section {
+    padding: 60px 16px;
+  }
+
+  .index-process-section .index-process-header {
+    margin-bottom: 48px;
+  }
+
+  .index-process-section .index-process-header h2 {
+    font-size: 26px;
+  }
+
+  .index-process-section .index-process-timeline {
+    grid-template-columns: 1fr !important;
+    gap: 40px;
+  }
+
+  .index-process-section .index-process-connector-line {
+    display: none;
+  }
+
+  .index-process-section .index-process-step {
+    padding: 28px 20px;
+  }
+
+  .index-process-section .index-process-step-number {
+    width: 44px;
+    height: 44px;
+    font-size: 16px;
+    top: -14px;
+    right: 20px;
+  }
+
+  .index-process-section .index-process-step-content {
+    gap: 12px;
+    margin-top: 12px;
+  }
+
+  .index-process-section .index-process-step h3 {
+    font-size: 20px;
+  }
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
